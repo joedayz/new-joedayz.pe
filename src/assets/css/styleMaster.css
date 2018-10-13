@@ -1,0 +1,238 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body{
+	/*background-color: #aca8a4; */
+}
+
+.container{
+	background-color: #aca8a4;
+	padding: 15px 11px 55px;
+}
+
+header{
+	background-color: #ebebeb;
+	height: 37px;
+	width: 100%;
+}
+
+header img{
+	float: right;
+	margin: 6px;
+}
+header input{
+	float: right;
+	margin: 6px 13px 6px 18px;
+}
+.buscador{
+	padding: 6px 0px;
+	padding-right: 25px;
+	padding-left: 5px;
+	background: #fff url(../img/lupa.gif) 95% center no-repeat;
+	border: none;
+	height: 25px;
+	width: 180px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+          box-shadow: none;
+}
+.buscador:focus{
+	outline: none;
+}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration{
+	-webkit-appearance:none;
+	-webkit-appearance:textfield;
+}
+nav{
+	background-color: white;
+	font-family: letrasMenu;
+	font-size: 8pt;
+	height: auto;
+	margin: 0px;
+	min-height: 115px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 22px;
+	width: 100%;
+}
+
+.container-fluid {
+	padding-left: 10px;
+}
+
+.navbar{
+	border: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-collapse{
+	padding: 0px;
+	width: 100%;
+}
+
+.navbar-default{
+	background-color: white;
+	padding-left: 5px;
+}
+
+.yamm .yamm-content{
+	padding: 0px;
+}
+.yamm-content ul{
+	padding: 0;
+}
+.dropdown-menu > li  a {
+	font-family: 'Roboto', sans-serif;
+	color: #777;
+	font-size: 12px;
+	display: block;
+	
+	padding: 5px 15px 5px 25px;
+	clear: both;
+	font-weight: normal;
+	line-height: 20px;
+	white-space: nowrap;
+}
+.dropdown-menu > li  a:hover {
+	color: #262626;
+	text-decoration: none;
+}
+@media (min-width: 768px) {
+	.navbar-nav{
+		padding-top: 43px;
+		float: right;
+	}
+	.yamm .yamm-content{
+		padding: 10px 0px;
+	}
+	.yamm-content ul{
+		border-right:1px dotted #c6c6c6;
+		display: table;
+		width: inherit;
+	}
+	.yamm-content ul:last-child{
+		border-right:none;
+	}
+	.dropdown-menu > li  a {
+		line-height: 1.428571429;
+		padding: 3px 20px;
+		color: #9c9c9c;
+	}
+	.dropdown-menu > li  a:hover {
+		background-color: #f5f5f5;
+	}
+}
+.corpus{
+	background-color: white;
+	height: auto;
+	width: 100%;
+}
+
+.footer{
+	float: left;
+	width: 100%;
+}
+
+.footer-menu{
+	background-color: #eeeeee;
+	font-family: "Open Sans Regular";
+	width: 100%;
+}
+
+.footer-menu>.col-md-2{
+	background-color: #eeeeee;
+	padding: 10px 0px 10px 15px;
+}
+.footer-menu>.col-md-2:last-child ul{
+	border: none;
+}
+.footer-menu>.col-md-2 ul{
+	border-right: 1px solid #dbdbdb;
+	color: #888b8c;
+	font-size: 12px;
+	height: 110px;
+	list-style: none;
+	padding: 0px;
+	padding-right: 10px;
+}
+
+.footer-menu b{
+	font-family: "Open Sans Regular";
+	color: #000;
+	font-weight: normal;
+	font-size: 12.3px;
+}
+
+.footer-menu>.col-md-2 ul img{
+	padding: 5px;
+}
+
+.footer-menu>.col-md-2 a{
+    color: #888b8c;
+    text-decoration: none;
+}
+
+.footer-final{
+	font-family: "Open Sans Regular";
+	background-color: white;
+	color: #858585;
+	font-size: 12.5px;
+	height: auto;
+	padding: 18px 45px;
+	width: 100%;
+}
+
+@font-face{
+	font-family: 'letrasTitle';
+	src: url('../fuentes/new_cicle/New Cicle Fina.eot?') format('eot'), 
+	     url('../fuentes/new_cicle/New Cicle Fina.woff') format('woff'), 
+	     url('../fuentes/new_cicle/New Cicle Fina.ttf')  format('truetype'),
+	     url('../fuentes/new_cicle/New Cicle Fina.svg') format('svg')
+}
+
+@font-face {
+    font-family: "New Cicle Gordita";
+    src: url('New-Cicle-Gordita.eot');
+    src: url('../fuentes/new-cicle/fuentes/new_cicle/New-Cicle-Gordita.eot?#iefix') format('embedded-opentype'),
+			 url('../fuentes/new_cicle/New-Cicle-Gordita.svg#New Cicle') format('svg'),
+			 url('../fuentes/new_cicle/New-Cicle-Gordita.woff') format('woff'),
+			 url('../fuentes/new_cicle/New-Cicle-Gordita.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url('../fuentes/open-sans/OpenSans-Regular.eot');
+    src: url('../fuentes/open-sans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fuentes/open-sans/OpenSans-Regular.svg#Open Sans') format('svg'),
+         url('../fuentes/open-sans/OpenSans-Regular.woff') format('woff'),
+         url('../fuentes/open-sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url('../fuentes/open-sans/OpenSans-Bold.eot');
+    src: url('../fuentes/open-sans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fuentes/open-sans/OpenSans-Bold.svg#Open Sans') format('svg'),
+        url('../fuentes/open-sans/OpenSans-Bold.woff') format('woff'),
+        url('../fuentes/open-sans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Italic";
+    src: url('../fuentes/open-sans/OpenSans-Italic.eot');
+    src: url('../fuentes/open-sans/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fuentes/open-sans/OpenSans-Italic.svg#Open Sans') format('svg'),
+        url('../fuentes/open-sans/OpenSans-Italic.woff') format('woff'),
+        url('../fuentes/open-sans/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,91 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+h1{font-size: 30px; color: #83a60a;text-decoration: underline;margin-bottom: 15px;font-weight: bold;}
+.filaexpo{margin-bottom: 15px;}
+.col1{margin-top: 40px;}
+.col2{margin-top: 20px;}
+.col3{}
+
+.mapa{z-index:999;position: relative;background-image: url("../img/javadayperu/desktop.png");width: 1001px; height: 406px; color:#fff;margin-top: -30px;}
+.mapa h1{font-size: 30px; color: #fff;text-decoration: underline;margin-bottom: 15px;font-weight: bold;}
+.lugar{margin-top: 120px; margin-left: 40px;}
+.padding20{padding-left: 60px; padding-right: 50px;}
+
+.charla{margin-bottom: 10px;}
+
+.top20{margin-top: 30px;}
+
+.registro{width: 280px;height: 280px;background-color: #83a60a;text-align: center;   border-radius: 140px;
+  -moz-border-radius: 140px;
+  -webkit-border-radius: 140px;
+padding-top: 45px;line-height: 25px; margin: auto;}
+.registro h1{font-size: 30px; color: #fff;text-decoration: underline;margin-bottom: 20px;font-weight: bold;}
+
+.filaexpo img{margin-bottom: 10px;}
+
+.boton {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #83a60a;
+  font-size: 20px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  color: #fff;
+  background: #ccc;
+  text-decoration: none;
+}
+
+.img-responsive{max-width: 100%;}
+
+#Mapa {
+    height: 380px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    left: 650px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body{
+  	font-family: 'Roboto', sans-serif;
+  	color: #000000;
+  	font-size: 14px;
+  	line-height: 16px;
+  }
+
+  h1{font-size: 20px;}
+
+  .col1{margin-top: 10px;}
+  .col2{margin-top: 10px;}
+  .col3{margin-top: 10px;}
+  .padding20{padding-left: 15px; padding-right: 15px;}
+  .filaexpo{text-align: center;margin-bottom: 0px;}
+  .registro{padding-left: 15px;padding-right: 15px;font-size: 18px;}
+
+  .mapa{z-index:999;position: relative;background-image: url("../img/javadayperu/mobile.png");
+  background-size: 100% 100%; width: 100%; color:#fff;margin-top: -10px;}
+  .mapa h1{font-size: 20px; color: #fff;text-decoration: underline;margin-bottom: 15px;font-weight: bold;}
+
+  #Mapa {
+height: 240px;
+width: 100%;
+position: absolute;
+z-index: 1;
+left: 50%;
+margin-top: 160px;
+margin-left: -245px;
+  }
+  .lugar{margin-top: 30px; margin-left: 40px;}
+}

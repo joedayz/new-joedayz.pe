@@ -1,0 +1,34 @@
+.texto{
+	font-family: "Open Sans Regular";
+    color:#787878;
+}
+
+.img-empresa{
+	margin-top: 5px;
+	width: 100%;
+}
+
+.contacto article p{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.borde_arriba{
+    margin-top: 20px !important;
+}
+
+.letraVerde{
+    color : #8cc63f;
+}
+
+.negrita{
+    font-family: "Open Sans Bold";
+}
+
+.espacioAbajo{
+    margin-bottom: 25px;
+}
+
+.cursos .title h1{
+	background: none;
+}

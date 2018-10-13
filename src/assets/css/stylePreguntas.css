@@ -1,0 +1,15 @@
+.cursos article{
+	border-top: none;
+}
+
+.cursos article h4 p{
+	color: #88af48;
+	font-family: "Open Sans Bold";
+	font-size: 14.58px;
+	line-height: 20.83px;
+	margin-bottom: 10px;
+}
+
+.cursos .title h1{
+	background: none;
+}
