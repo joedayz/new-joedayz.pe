@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {Foto} from "./dto/foto.model";
+import {InicioService} from "./service/inicio.service";
 
 @Component({
   selector: 'home',
@@ -6,9 +8,26 @@ import {Component, OnInit} from '@angular/core';
 })
 
 export class InicioComponent implements OnInit {
-  constructor() {
+
+
+
+  fotos : Foto[] = [];
+
+  constructor( private inicioService: InicioService) {  //Inyeccion de dependencias
   }
 
   ngOnInit() {
-  }
+
+      this.inicioService.consultarFotosInicio().subscribe(
+
+        (data: Foto[]) => {
+
+            this.fotos = data;
+        },
+        error => {
+          console.log(error);
+
+        }
+
+      )};
 }

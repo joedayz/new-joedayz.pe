@@ -8,19 +8,19 @@ import {RouterModule} from "@angular/router";
 
 
 @NgModule({
-  imports: [
+  imports: [   //aqui van modulos
     CommonModule,
     HeaderModule,
     NavigationModule,
     RouterModule,
   ],
-  declarations: [
+  declarations: [   //aqui van componentes
 
     FooterComponent,
     MainLayoutComponent,
 
   ],
-  exports:[
+  exports:[        //expones para el resto de modulos lo que quieres compartir
     HeaderModule,
     NavigationModule,
     FooterComponent

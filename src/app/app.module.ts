@@ -20,6 +20,8 @@ import {CampusComponent} from "./campus.component";
 import {JoefactComponent} from "./joefact.component";
 import {ContactoComponent} from "./contacto.component";
 import {EmpresaComponent} from "./empresa.component";
+import {InicioService} from "./service/inicio.service";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -42,9 +44,10 @@ import {EmpresaComponent} from "./empresa.component";
   imports: [
     BrowserModule,
     JoeDayzLayoutModule,
+    HttpClientModule,
     routing
   ],
-  providers: [],
+  providers: [ InicioService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
