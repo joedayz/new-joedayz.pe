@@ -9,16 +9,10 @@
           <ol class="carousel-indicators">
 
 
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <ng-template ngFor let-foto [ngForOf]="fotos" let-i="index">
+              <li data-target="#carousel-example-generic" class="{{i===0 ? 'active' : ''}}" [attr.data-slide-to]="i"></li>
+            </ng-template>
 
-
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-
-
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 
 
 
